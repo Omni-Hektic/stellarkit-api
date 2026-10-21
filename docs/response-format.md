@@ -94,7 +94,7 @@ See [Error Reference](error-reference.md) for comprehensive error documentation.
 
 ## Paginated Response Shape
 
-Endpoints that return lists of records (transactions, payments, operations, etc.) support pagination and include metadata in the `meta` object.
+Endpoints that return lists of records (transactions, payments, operations, etc.) support pagination and include metadata in the `meta` object. For high-volume streaming, cursor resumption, and parallel batching patterns, see [Advanced Pagination Patterns](pagination-patterns.md).
 
 **Request Parameters:**
 - `limit` (number, default: 10, max: 200) — Number of records to return
