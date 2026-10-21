@@ -61,6 +61,7 @@ This project is ideal for:
 - [Compliance Workflow Guide](docs/compliance-workflow.md) - Step-by-step KYC/AML workflow chaining risk score, watchlist, transaction velocity, compliance check, and freeze check into a compliance report
 - [Network Endpoints Guide](docs/network-endpoints.md) - All network and fee endpoints with curl examples, cache TTLs, and sample responses
 - [Caching Strategy](docs/caching-strategy.md) - Per-endpoint cache TTLs and configuration
+- [Data Freshness Guarantees](docs/data-freshness.md) - Live vs cached endpoints, maximum staleness, TTL environment variables, and cache-busting with ?fresh=true
 - [Logging Guide](docs/logging.md) - Log levels, configuration, structured log entry fields, JSON parsing, and production monitoring
 - [Monitoring Guide](docs/monitoring.md) - Key metrics, alert thresholds, health check polling strategy, and integration patterns for Prometheus, Datadog, CloudWatch, and uptime tools
 - [Observability Guide](docs/observability.md) - Cache stats endpoint, request tracing via requestId, and structured log field reference

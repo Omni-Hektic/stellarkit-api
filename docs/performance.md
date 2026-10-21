@@ -6,6 +6,7 @@ This guide covers latency expectations, cache TTL tuning, Horizon dependency opt
 - [Monitoring Guide](monitoring.md) — alert thresholds, tool integrations, and the full monitoring checklist
 - [Observability Guide](observability.md) — cache stats, request tracing, and log queries
 - [Caching Strategy](caching-strategy.md) — full per-endpoint TTL reference
+- [Data Freshness Guarantees](data-freshness.md) — live vs cached endpoints, maximum staleness, and ?fresh=true
 
 ---
 
